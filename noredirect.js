@@ -4,9 +4,9 @@ Skip the redirect page.
 Quantumult X:
 [rewrite_local]
 # 简书
-^https:\/\/links\.jianshu\.com\/go\?to= url script-echo-response https://raw.githubusercontent.com/zZPiglet/Task/master/noredirect.js
+^https:\/\/links\.jianshu\.com\/go\?to= url script-echo-response https://raw.githubusercontent.com/Dext9r/task/master/noredirect.js
 # 知乎
-^https:\/\/link\.zhihu\.com\/\?target= url script-echo-response https://raw.githubusercontent.com/zZPiglet/Task/master/noredirect.js
+^https:\/\/link\.zhihu\.com\/\?target= url script-echo-response https://raw.githubusercontent.com/Dext9r/task/master/noredirect.js
 
 Surge:
 [Script]
